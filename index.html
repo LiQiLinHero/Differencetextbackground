@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>有趣的文字背景</title>
+    <style>
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+        }
+        .video {
+            width: 100%;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            min-width: 100%;
+            background-position: center center;
+            background-size: cover;
+            object-fit: cover;
+        }
+
+        h1 {
+            position: absolute;
+            font-size: 5em;
+            top: 200px;
+            line-height: 1em;
+            font-weight: 900;
+            mix-blend-mode: difference !important;
+            color: #efefef;
+            z-index: 2;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <video autoplay muted loop class="video"
+        src="https://tactusmarketing.com/wp-content/uploads/tactus-waves-hero-sm.mp4"></video>
+    <h1 class="hero-title blend">
+        With great power comes great responsibility.
+    </h1>
+</body>
+
+</html>
